@@ -1,0 +1,44 @@
+/* Navbar background color */
+nav {
+    background-color: #171D32;
+}
+
+/* Links styling */
+.links ul .link {
+    text-decoration: none;
+    color: #ffffff !important;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 30px;
+    position: relative;
+}
+.navbar-brand i{
+    color: #fff;
+}
+
+/* Underline animation on hover */
+.links ul .link::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #ffffff !important;
+    position: absolute;
+    bottom: 0px;
+    left: 8px;
+    transition: width .5s ease-in-out; /* Smooth animation */
+}
+
+.links ul .link:hover::after {
+    width: 80%;
+}
+.navbar-brand{
+    width: 10%;
+}
+/* Logo text styling */
+.navbar-brand h5 {
+    
+    font-weight: 900;
+    font-size: 20px;
+    color: #ffffff !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

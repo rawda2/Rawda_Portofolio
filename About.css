@@ -1,0 +1,13 @@
+.about{
+    display: flex;
+    width: 80%;
+    background-color: #101423;
+    color: #fff;
+}
+@media (min-width:440px) and (max-width:768px){
+   
+    .about{
+        width: 95%;
+
+    }
+}
